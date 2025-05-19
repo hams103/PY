@@ -1,3 +1,5 @@
+
+
 ## File Transfer Application: DRTP over UDP (application.py)
 
 Ensure Python is installed on your system.
@@ -52,7 +54,7 @@ Start the DRTP application in server mode before launching the client. Typically
 `python3 application.py -c -f picture.jpg`
 
 
-#### Server & Client Options:
+### Server & Client Options:
 
 -h, --help for info on how to use the argparse flags
 `python3 application.py -s -h`
@@ -72,12 +74,12 @@ Start the DRTP application in server mode before launching the client. Typically
 `python3 application.py -c -w 3`
 
 
-#### Examples:
+### Examples:
 
-# Example running the server
+#### Example running the server
 
 python3 application.py -s -sp files_downloaded -i 127.0.0.1 -p 8088 -r gbn -w 3
 
-# Example running the client
+#### Example running the client
 
 python3 application.py -c -f iceland.jpg -i 127.0.0.1 -p 8088 -r gbn -w 3
